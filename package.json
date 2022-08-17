@@ -1,0 +1,39 @@
+{
+  "name": "igg-vue-datepicker",
+  "version": "1.0.8",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint",
+    "build:lib": "vue-cli-service build --target lib --name igg-vue-datepicker ./src/install.js"
+  },
+  "main": "./dist/igg-vue-datepicker.common.js",
+  "files": [
+    "dist/igg-vue-datepicker.common.js",
+    "dist/igg-vue-datepicker.css"
+  ],
+  "dependencies": {
+    "core-js": "3.6.5",
+    "moment": "2.29.4",
+    "vue": "2.6.11",
+    "vue2-datepicker": "3.9.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "5.0.8",
+    "@vue/cli-plugin-eslint": "5.0.8",
+    "@vue/cli-plugin-unit-jest": "5.0.8",
+    "@vue/cli-service": "5.0.8",
+    "@vue/eslint-config-standard": "5.1.2",
+    "@vue/test-utils": "1.0.3",
+    "babel-eslint": "10.1.0",
+    "eslint": "7.5.0",
+    "eslint-plugin-import": "2.20.2",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.0.0",
+    "eslint-plugin-vue": "6.2.2",
+    "vue-template-compiler": "2.6.11"
+  }
+}

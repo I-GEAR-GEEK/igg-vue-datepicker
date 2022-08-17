@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DatePicker.vue should match with snapshot 1`] = `
+<datepicker-stub defaultvalue="Mon Jul 12 2021 00:00:00 GMT+0700 (Indochina Time)" disableddate="() => {}" type="date" getclasses="function _default() {
+          return [];
+        }" titleformat="YYYY-MM-DD" format="DD/MM/YYYY" timetitleformat="YYYY-MM-DD" disabledtime="function _default() {
+          return false;
+        }" hourstep="1" minutestep="1" secondstep="1" scrollduration="100" valuetype="date" lang="[object Object]" placeholder="" clearable="true" prefixclass="mx" inputattr="[object Object]" appendtobody="true" popupstyle="[object Object]" confirmtext="OK" shortcuts="" style="width: 100%;"></datepicker-stub>
+`;
